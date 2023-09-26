@@ -16,6 +16,14 @@ public class Jugador{
         this.totalLanzamientos = totalLanzamientos;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
     public static Jugador crearJugador(Scanner scanner) {
             System.out.print("Nombre: ");
             String nombre = scanner.next();
